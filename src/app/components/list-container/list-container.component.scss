@@ -1,0 +1,13 @@
+:host {
+  flex: 1;
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 26px 20px;
+
+  &:first-of-type {
+    border-right: 1px solid lightgrey;
+  }
+}
